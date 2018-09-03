@@ -1,0 +1,2931 @@
+jQuery("#simulation")
+  .on("click", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .click", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                    "transition": {
+                      "type": "slideright",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_25")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/bfd5de64-41c6-4e3d-8bb2-424c96e1835d",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_26")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/5505e890-c686-403b-a078-a69f10d7761e",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_27")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/90b35251-edd0-4b15-87f6-7ed16e699735",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_28")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/adde8e28-1fc7-417c-8d5c-1a65ad6fe3ff",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_29")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/81bbb4e8-1e27-442c-a27c-8670555668a3",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_30")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f79badfd-1fed-4cfd-8a8a-3b14a6aa4e42",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Button_9")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9": {
+                      "attributes": {
+                        "font-size": "10.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9 span": {
+                      "attributes": {
+                        "color": "#434343",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "10.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9": {
+                      "attributes": {
+                        "font-size": "10.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Button_9 span": {
+                      "attributes": {
+                        "color": "#8F6203",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "10.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "timed",
+                  "delay": 300
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Image_7")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/a7532e3e-aef7-4bf4-b125-8f587d8bc405",
+                    "transition": {
+                      "type": "slideright",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                    "transition": {
+                      "type": "slideright",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_25")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/bfd5de64-41c6-4e3d-8bb2-424c96e1835d",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_26")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/5505e890-c686-403b-a078-a69f10d7761e",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_27")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/90b35251-edd0-4b15-87f6-7ed16e699735",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_28")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/adde8e28-1fc7-417c-8d5c-1a65ad6fe3ff",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_29")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/81bbb4e8-1e27-442c-a27c-8670555668a3",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_30")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f79badfd-1fed-4cfd-8a8a-3b14a6aa4e42",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_13")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_15" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_13" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_18" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_15")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_15" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_13" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_17" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                    "transition": {
+                      "type": "slideright",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_25")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/bfd5de64-41c6-4e3d-8bb2-424c96e1835d",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_26")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/5505e890-c686-403b-a078-a69f10d7761e",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_27")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/90b35251-edd0-4b15-87f6-7ed16e699735",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_28")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/adde8e28-1fc7-417c-8d5c-1a65ad6fe3ff",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_29")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/81bbb4e8-1e27-442c-a27c-8670555668a3",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_30")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/f79badfd-1fed-4cfd-8a8a-3b14a6aa4e42",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Image_27")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 span": {
+                      "attributes": {
+                        "color": "#000000",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_29 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_34 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Image_29")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_27 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 span": {
+                      "attributes": {
+                        "color": "#000000",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_34 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Image_34")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_27 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_11 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Image_29 > svg": {
+                      "attributes": {
+                        "overlay": "#A9A9A9"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_12 span": {
+                      "attributes": {
+                        "color": "#A9A9A9",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "parallel",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        },
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimChangeStyle",
+                  "parameter": [ {
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13": {
+                      "attributes": {
+                        "font-size": "8.0pt",
+                        "font-family": "'Roboto-Regular',Arial"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 .valign": {
+                      "attributes": {
+                        "vertical-align": "middle",
+                        "text-align": "center"
+                      }
+                    }
+                  },{
+                    "#s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 #s-Label_13 span": {
+                      "attributes": {
+                        "color": "#000000",
+                        "text-align": "center",
+                        "text-decoration": "none",
+                        "font-family": "'Roboto-Regular',Arial",
+                        "font-size": "8.0pt"
+                      }
+                    }
+                  } ],
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_13")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "isexternal": true,
+                    "target": "https://twitter.com/login?lang=es",
+                    "tab": true
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_14")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "isexternal": true,
+                    "target": "https://www.facebook.com/",
+                    "tab": true
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_15")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "isexternal": true,
+                    "target": "https://www.instagram.com/?hl=es-la",
+                    "tab": true
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_22")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/90b35251-edd0-4b15-87f6-7ed16e699735",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_23")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/81bbb4e8-1e27-442c-a27c-8670555668a3",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Hotspot_24")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimNavigation",
+                  "parameter": {
+                    "target": "screens/adde8e28-1fc7-417c-8d5c-1a65ad6fe3ff",
+                    "transition": {
+                      "type": "slideleft",
+                      "duration": 700
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  })
+  .on("click", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .toggle", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Panel_15")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimNavigation",
+                    "parameter": {
+                      "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                      "transition": {
+                        "type": "slideandfade",
+                        "duration": 700
+                      }
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    } else if(jFirer.is("#s-Menu-icon")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimMove",
+                    "parameter": {
+                      "target": [ "#s-Side-Menu" ],
+                      "top": {
+                        "type": "nomove"
+                      },
+                      "left": {
+                        "type": "movetoposition",
+                        "value": "0"
+                      },
+                      "containment": false,
+                      "effect": {
+                        "type": "none",
+                        "easing": "linear",
+                        "duration": 500
+                      }
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    } else if(jFirer.is("#s-Panel_15")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimNavigation",
+                    "parameter": {
+                      "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                      "transition": {
+                        "type": "slideandfade",
+                        "duration": 700
+                      }
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    } else if(jFirer.is("#s-Ellipse_13")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimSetValue",
+                    "parameter": {
+                      "target": [ "#s-Input_3" ],
+                      "value": "Notificaciones desactivadas"
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    } else if(jFirer.is("#s-Ellipse_15")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimSetValue",
+                    "parameter": {
+                      "target": [ "#s-Input_3" ],
+                      "value": "Notificaciones activadas"
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    } else if(jFirer.is("#s-Panel_15")) {
+      if(jFirer.data("jimHasToggle")) {
+        jFirer.removeData("jimHasToggle");
+        jEvent.undoCases(jFirer);
+      } else {
+        jFirer.data("jimHasToggle", true);
+        event.backupState = true;
+        event.target = jFirer;
+        cases = [
+          {
+            "blocks": [
+              {
+                "actions": [
+                  {
+                    "action": "jimNavigation",
+                    "parameter": {
+                      "target": "screens/95adc887-3e85-4566-95d6-d7b6077c8c85",
+                      "transition": {
+                        "type": "slideandfade",
+                        "duration": 700
+                      }
+                    },
+                    "exectype": "serial",
+                    "delay": 0
+                  }
+                ]
+              }
+            ],
+            "exectype": "serial",
+            "delay": 0
+          }
+        ];
+        jEvent.launchCases(cases);
+      }
+    }
+  })
+  .on("pageload", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .pageload", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Input-text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_6" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Nombre"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_7")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_7" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Perfil"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Label_32")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Label_32" ],
+                    "value": {
+                      "action": "jimConcat",
+                      "parameter": [ {
+                        "action": "jimSubstring",
+                        "parameter": [ {
+                          "action": "jimSystemTime"
+                        },"0","5" ]
+                      }," PM" ]
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_6" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Nombre"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_7")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_7" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Perfil"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Panel_1")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "variable": [ "Nombre" ],
+                    "value": null
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "variable": [ "email" ],
+                    "value": null
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "variable": [ "contraseña" ],
+                    "value": null
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Nombre"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_1")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_1" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "email"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_2")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_2" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "contraseña"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_3")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_3" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Localidad"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_4")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_4" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Perfil"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_5")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_5" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Colegio"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_6")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_6" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Nombre"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_7")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "target": [ "#s-Input-text_7" ],
+                    "value": {
+                      "datatype": "variable",
+                      "element": "Perfil"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  })
+  .on("pageunload", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .pageunload", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Input-text_8")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "variable": [ "nombre2" ],
+                    "value": {
+                      "datatype": "property",
+                      "target": "#s-Input-text_8",
+                      "property": "jimGetValue"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Input-text_9")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimSetValue",
+                  "parameter": {
+                    "variable": [ "Apellido" ],
+                    "value": {
+                      "datatype": "property",
+                      "target": "#s-Input-text_9",
+                      "property": "jimGetValue"
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  })
+  .on("swipeleft", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .swipeleft", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_13")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_15" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_13" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_18" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_11")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "9"
+                    },
+                    "containment": false
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movebyoffset",
+                      "value": "-15"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_16" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  })
+  .on("swiperight", ".s-64d0caeb-7f24-4d4c-a830-d41e2a794a54 .swiperight", function(event, data) {
+    var jEvent, jFirer, cases;
+    if(data === undefined) { data = event; }
+    jEvent = jimEvent(event);
+    jFirer = jEvent.getEventFirer();
+    if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_15")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_15" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_13" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_17" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    } else if(jFirer.is("#s-Ellipse_12")) {
+      cases = [
+        {
+          "blocks": [
+            {
+              "actions": [
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_12" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimMove",
+                  "parameter": {
+                    "target": [ "#s-Ellipse_11" ],
+                    "top": {
+                      "type": "nomove"
+                    },
+                    "left": {
+                      "type": "movetoposition",
+                      "value": "26"
+                    },
+                    "containment": false,
+                    "effect": {
+                      "type": "none",
+                      "easing": "linear",
+                      "duration": 200
+                    }
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                },
+                {
+                  "action": "jimShow",
+                  "parameter": {
+                    "target": [ "#s-Panel_15" ]
+                  },
+                  "exectype": "serial",
+                  "delay": 0
+                }
+              ]
+            }
+          ],
+          "exectype": "serial",
+          "delay": 0
+        }
+      ];
+      event.data = data;
+      jEvent.launchCases(cases);
+    }
+  });

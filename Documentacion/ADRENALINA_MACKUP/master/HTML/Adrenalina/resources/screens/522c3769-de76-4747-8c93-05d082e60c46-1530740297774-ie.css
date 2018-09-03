@@ -1,0 +1,57 @@
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Button_1 {
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: alpha(opacity=70);
+  -ms-transform: rotate(0.0deg);
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Button_2 {
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: alpha(opacity=70);
+  -ms-transform: rotate(0.0deg);
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Paragraph_1 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Paragraph_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Label_32 {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #FFFFFF;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #FFFFFF;
+  border-radius: 7px 7px 7px 7px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 21px;
+  height: 35px;
+  width: 309px;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  filter: alpha(opacity=70);
+  -ms-transform: rotate(0.0deg);
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 #s-Text_1 {
+  -ms-transform: rotate(0.0deg);
+}
+.devMobile #jim-container .ui-page {
+  overflow-x: hidden;
+}
+.devMobile .non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+.web #simulation {
+  overflow-x: hidden;
+}
+#s-522c3769-de76-4747-8c93-05d082e60c46 > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}

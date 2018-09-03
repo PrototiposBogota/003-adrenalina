@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-navbar>
+
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <img class="logo2" src="assets/logo/adrenalinaN1.png" />
+
+      
+        
+          <button ion-button icon-only color="light">
+                <ion-icon name="home"></ion-icon>
+           </button>
+           <ion-buttons end>
+              <button ion-button icon-only color="light">
+                <ion-icon name="contact"></ion-icon>
+              </button>
+            </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <h3>Adrenalina Menu Principal</h3>
+  <!-- <button ion-button secondary menuToggle>Toggle Menu</button> -->
+
+  <button ion-button color="light" full icon-start large (click)="opcion_ruta()">
+    <ion-icon name="star"></ion-icon> 
+    Ruta de Acción
+  </button>
+  <button ion-button color="light" full icon-start large navPush="DrogasPage">
+    <ion-icon name="pulse"></ion-icon>
+    Info. De Sustancias
+  </button>
+  <button ion-button color="light" full icon-start large navPush="DenunciaPage">
+      <ion-icon name="hand"></ion-icon>
+      Denuncia                                      
+  </button>
+  <button ion-button color="light" full icon-start large (click)="opcion_agenda()">
+    <ion-icon name="calendar"></ion-icon>
+    Calendario Actividades
+  </button>
+  <button ion-button color="light" full icon-start large>
+      <ion-icon name="happy"></ion-icon>
+    Chatea con Nosotros
+  </button>
+  <button ion-button color="light" full icon-start large>
+      <ion-icon name="medkit"></ion-icon>
+  Programas de apoyo
+  </button>
+  
+</ion-content>

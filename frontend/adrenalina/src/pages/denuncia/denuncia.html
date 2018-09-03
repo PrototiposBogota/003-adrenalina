@@ -1,0 +1,62 @@
+<!--
+  Generated template for the DenunciaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>denuncia</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item><h1>Tu alerta sera anonima</h1></ion-item>
+  
+  
+    <ion-list>
+    <ion-item>
+      <ion-label>Localidad</ion-label>
+      <ion-select [(ngModel)]="toppings" multiple="false" okText="Si">
+        <ion-option value="La Candelaria" selected="false">La Candelaria</ion-option>
+        <ion-option value="Rafael Uribe Uribe" selected="false">Rafael Uribe Uribe</ion-option>
+        <ion-option value="Ciudad Bolivar" selected="false">Ciudad Bolivar</ion-option>
+      </ion-select>
+  </ion-item>
+  
+  <ion-item>
+    <ion-label floating>Dirección</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  
+  <ion-item>
+  
+  </ion-item>
+  
+    <ion-item>
+      <ion-label>Descripción</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  
+  
+  <ion-item>
+      <ion-label>Tipo de reporte</ion-label>
+      <ion-select [(ngModel)]="toppings" multiple="false" okText="Si">
+        <ion-option value="Venta" selected="false">Venta</ion-option>
+        <ion-option value="Consumo" selected="false">Consumo</ion-option>
+        <ion-option value="Producción" selected="false">Producción</ion-option>
+      </ion-select>
+  </ion-item>
+  
+    <button ion-button navPush="BotonmapaPage" icon-end>
+        Mostrar en el mapa
+          <ion-icon name="md-pin" isActive="false"></ion-icon>  
+      </button>
+    </ion-list> 
+  
+    <button ion-button secondary menuToggle>Enviar</button>
+  </ion-content>

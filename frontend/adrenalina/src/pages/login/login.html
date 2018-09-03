@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <!-- <img src="assets/logo/adrenalinaN1.png" width="170" height="38"/> -->
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding color="transparente">
+
+  <img class="logo" src="assets/logo/Adrenalina.png" />
+
+  <!-- <ion-icon class="cont"  name="ios-contact"></ion-icon> -->
+  <h3>Informate, y crea redes de apoyo en tu colegio, para prevenir el consumo de drogas.</h3>
+  <ion-buttons>
+    <!-- <button ion-button icon-only> -->
+    <ion-icon color="primary" name="contact"></ion-icon>
+    <!-- </button> -->
+  </ion-buttons>
+
+
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input name="email" type="email" [(ngModel)]="usuario.email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>ingresar contraseña</ion-label>
+    <ion-input name="password1" type="password" [(ngModel)]="usuario.password1"></ion-input>
+  </ion-item>
+
+  <button ion-button (click)="ingresa()">Ingresar</button>
+
+  
+  <ion-content padding>
+
+
+    <button ion-button (click)="iniciarSesionFacebook('facebook')">
+      <ion-icon name="logo-facebook">facebook</ion-icon>
+    </button>
+
+    <button ion-button (click)="registrar()">Registrar</button>
+    <button ion-button (click)="recuperarC()">Recuperar contraseña</button>
+
+
+
+
+  </ion-content>
+
+
+
+</ion-content>

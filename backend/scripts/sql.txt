@@ -1,0 +1,9 @@
+select * from localidades
+insert into localidades (nombre, created_at, updated_at) values ('Candelaria', NOW(), NOW());
+
+select * from eventos
+
+insert into eventos (titulo, descripcion, fecha, hora, lugar, created_at, updated_at) 
+values ('Evento 1', 'Descripción Evento 1', NOW(), NOW(), 'lugar evento 1', NOW(), NOW());
+insert into eventos (titulo, descripcion, fecha, hora, lugar, created_at, updated_at) 
+values ('Evento 2', 'Descripción Evento 2', NOW(), NOW(), 'lugar evento 2', NOW(), NOW());

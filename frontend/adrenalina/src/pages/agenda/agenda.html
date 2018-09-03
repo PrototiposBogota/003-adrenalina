@@ -1,0 +1,34 @@
+<!--
+  Generated template for the AgendaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>agenda</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+   <ion-calendar #calendar (onSelect)="onDaySelect($event)" lang="en"  [format]="'YYYY-MM-DD'"></ion-calendar>
+
+  <div id="info_eventos" style="display:none"> 
+   <ion-card >
+    <ion-card-header>
+      Detalle de los eventos 
+    </ion-card-header>
+    <ion-card-content *ngFor="let evento of detalleEvento">
+      {{evento.id}}
+      {{evento.titulo}}
+      {{evento.descripcion}}
+      {{evento.fecha}}
+      {{evento.hora}}
+      {{evento.lugar}}
+    </ion-card-content>
+  </ion-card>
+</div>
+</ion-content>

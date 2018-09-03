@@ -1,0 +1,27 @@
+rails generate model localidades nombre:string{20} --force-plural
+rails generate model perfiles nombre:string{10} --force-plural
+rails generate model instituciones nombre:string{100} descripcion:text{300} direccion:text{100} telefono:string{20} web:string{50} --force-plural
+rails generate model notificaciones nombre:string{10} --force-plural
+rails generate model clasificaciones nombre:string{50} --force-plural
+rails generate model material_apoyos titulo:string{50} descripcion:text{300} ruta_archivo:string{150} tipo_archivo:string{50} --force-plural
+rails g model colegios nombre:string{50} coordenadaX:float coordenadaY:float localidades:references --force-plural
+
+rails destroy model localidades nombre:string{20} --force-plural
+rails generate scaffold localidades nombre:string{20} --force-plural
+rails g scaffold eventos titulo:string{100} descripcion:text{300} fecha:date hora:time lugar:string{70} imagen:binary localidades:references --force-plural
+rails d model colegios nombre:string{50} coordenadaX:float coordenadaY:float localidades:references --force-plural
+
+rails d scaffold localidades nombre:string{20} --force-plural
+rails d scaffold eventos titulo:string{100} descripcion:text{300} fecha:date hora:time lugar:string{70} imagen:binary localidades:references --force-plural
+
+rails g scaffold localidad nombre:string{20}
+rails g scaffold evento titulo:string{100} descripcion:text{300} fecha:date hora:time lugar:string{70} imagen:binary localidad:references
+
+rails g devise usuario
+
+rails g model colegio nombre:string{50} coordenadaX:float coordenadaY:float localidad:references
+rails d model perfiles nombre:string{10} --force-plural
+rails g model perfil nombre:string{10}
+rails g migration add_localidad_id_to_usuarios localidad:references
+rails g migration add_perfil_id_to_usuarios perfil:references
+rails g migration add_colegio_id_to_usuarios colegio:references

@@ -1,0 +1,22 @@
+page-login {
+  background-image: url('../../assets/imgs/fondo.jpg') !important;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  ion-content{
+    background-color: transparent !important;
+  }
+
+  text-align: center;
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+
+  .larger {
+    font-size: larger;
+}
+
+}

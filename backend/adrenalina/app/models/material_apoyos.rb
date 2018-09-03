@@ -1,0 +1,2 @@
+class MaterialApoyos < ApplicationRecord
+end

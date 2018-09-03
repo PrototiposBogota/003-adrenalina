@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo: MyString
+  descripcion: MyText
+  fecha: 2018-07-26
+  hora: 2018-07-26 12:08:15
+  lugar: MyString
+  imagen: 
+  localidad: one
+
+two:
+  titulo: MyString
+  descripcion: MyText
+  fecha: 2018-07-26
+  hora: 2018-07-26 12:08:15
+  lugar: MyString
+  imagen: 
+  localidad: two

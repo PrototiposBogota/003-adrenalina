@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <img class="logo2" src="assets/logo/adrenalinaN1.png" />
+    <!-- <ion-title>Nuevo Usuario</ion-title> -->
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Nuevo Usuario</h3>
+  <!-- User name No esta realcionado en el .ts -->
+  <ion-item>
+    <ion-label>Username</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Email</ion-label>
+    <ion-input name="email" type="email" [(ngModel)]="usuario.email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>ingresar contraseña</ion-label>
+    <ion-input name="password1" type="password" [(ngModel)]="usuario.password1"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Confirmar contraseña </ion-label>
+    <ion-input name="password2" type="password" [(ngModel)]="usuario.password2"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Localidad</ion-label>
+      <ion-select [(ngModel)]="localidad">
+        <ion-option value="ruu">Rafael Uribe Uribe</ion-option>
+        <ion-option value="n64">Engativá</ion-option>
+        <ion-option value="cb">Ciudad Bolivar</ion-option>
+        <ion-option value="us">Usaquén</ion-option>
+        <ion-option value="an">Antonio Nariño</ion-option>
+        <ion-option value="mar">Mártires</ion-option>
+        <ion-option value="fon">Fontibón</ion-option>
+        <ion-option value="bu">Barrios Unidos</ion-option>
+        <ion-option value="usm">Usme</ion-option>
+        <ion-option value="ken">Kennedy</ion-option>
+        <ion-option value="chp">Chapinero</ion-option>
+        <ion-option value="sanf">Santa Fe</ion-option>
+        <ion-option value="sct">San Cridtobal</ion-option>
+        <ion-option value="usm">Usme</ion-option>
+        <ion-option value="tun">Tunjuelito</ion-option>
+        <ion-option value="bos">Bosa</ion-option>
+        <ion-option value="sub">Suba</ion-option>
+        <ion-option value="tsq">Teusaquillo</ion-option>
+        <ion-option value="pad">Puente Aranda</ion-option>
+        <ion-option value="cand">Candelaria</ion-option>
+        <ion-option value="sump">Sumapaz</ion-option>
+
+      </ion-select>
+
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Perfil</ion-label>
+      <ion-select [(ngModel)]="perfil">
+        <ion-option value="pdf">Padre de Familia</ion-option>
+        <ion-option value="dct">Docente</ion-option>
+        <ion-option value="est">Estudiante</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Colegio</ion-label>
+      <ion-select [(ngModel)]="Colegio">
+        <ion-option value="a1">Colegio 01 </ion-option>
+        <ion-option value="c2">Colegio 02</ion-option>
+        <ion-option value="c3">Colegio 03</ion-option>
+        <ion-option value="c4">Colegio 04</ion-option>
+        <ion-option value="c5">Colegio 05</ion-option>
+        <ion-option value="c6">Colegio 06</ion-option>
+        <ion-option value="c7">Colegio 07</ion-option>
+        <ion-option value="c8">Colegio 08</ion-option>
+        <ion-option value="c9">Colegio 09</ion-option>
+        <ion-option value="c10">Colegio 10</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>No soy un robot</ion-label>
+      <ion-checkbox color="primary" checked="true"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+
+
+
+  <button ion-buttton (click)="crearCuenta()" ion-button>autenticar</button>
+
+
+</ion-content>
