@@ -7,10 +7,10 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { NuevoUsuarioPage } from '../pages/nuevo-usuario/nuevo-usuario';
 import { PerfilUsuarioPage } from '../pages/perfil-usuario/perfil-usuario';
-import { RutaPage } from '../pages/ruta/ruta';
-import { AgendaPage } from '../pages/agenda/agenda';
-import { DenunciaPage } from '../pages/denuncia/denuncia';
-import { DrogasPage } from '../pages/drogas/drogas';
+// import { RutaPage } from '../pages/ruta/ruta';
+// import { AgendaPage } from '../pages/agenda/agenda';
+// import { DenunciaPage } from '../pages/denuncia/denuncia';
+// import { DrogasPage } from '../pages/drogas/drogas';
 
 
 @Component({
@@ -32,12 +32,12 @@ export class MyApp {
       { title: 'Login', component: LoginPage },
       { title: 'Nuevo Usuario', component: NuevoUsuarioPage },
       { title: 'Perfil de Usuario', component: PerfilUsuarioPage },
-      { title: 'Ruta de Acción', component: RutaPage },
-      { title: 'Info De Sustancias', component: DrogasPage },
-      { title: 'Denuncia', component: DenunciaPage },
-      { title: 'Calendario Actividades', component: AgendaPage},
-      { title: 'Chatea con Nosotros', component: RutaPage },
-      { title: 'Programas de apoyo', component: RutaPage },
+      // { title: 'Ruta de Acción', component: RutaPage },
+      // { title: 'Info De Sustancias', component: DrogasPage },
+      // { title: 'Denuncia', component: DenunciaPage },
+      // { title: 'Calendario Actividades', component: AgendaPage},
+      // { title: 'Chatea con Nosotros', component: RutaPage },
+      // { title: 'Programas de apoyo', component: RutaPage },
 
     ];
 

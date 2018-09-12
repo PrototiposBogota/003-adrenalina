@@ -4,4 +4,13 @@ page-ruta {
       width: 170px;
       height: 38px;
     }
+
+
+    background-image: url('../../assets/Varios/fondo02.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ion-content {
+      background-color: transparent !important;
+    }
+
 }
