@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 003-adrenalina
 
 ADRENALINA
@@ -56,40 +69,35 @@ Que cosas necesitas para instalar el software y como instalarlas
 Da un ejemplo
 
 - Instalación 🔧
-Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutándose, cómo será ese paso,
-da un ejemplo y repite hasta finalizar.
+Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutándose, cómo será ese paso,da un ejemplo y repite hasta finalizar.
 Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
 
-- Ejecutando las pruebas ⚙️
-Explica como ejecutar las pruebas automatizadas para este sistema
-
-- Analice las pruebas end-to-end 🔩
-Explica que verifican estas pruebas y por qué, da un ejemplo y las pruebas de estilo de codificación, explica que verifican estas pruebas
-y por qué, da un ejemplo
 
 - Deployment 📦
 Agrega notas adicionales sobre cómo hacer deploy
 
-- Construido con 🛠️
-Menciona las herramientas que utilizaste para crear tu proyecto
-Dropwizard - El framework web usado
-Maven - Manejador de dependencias
-ROME - Usado para generar RSS
+- Construido con 🛠️:
+Visual Studio code,
+Noje.JS,
+Ionic Framework
+Ruby on rails
+Postgresql
+Github
+
 
 - Contribuyendo 🖇️
 Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 - Versionado 📌
-Usamos SemVer para el versionado. Para todas las versiones disponibles, mira los tags en este repositorio.
-
+Para todas las versiones disponibles, mira los tags en este repositorio.
+0.1 Alfa
 - Autores ✒️
-FELIPE MAHECHA
-WILLIAM GRANADA
-ANA MARÍA BOCANEGRA
+FELIPE MAHECHA,
+WILLIAM GRANADA,
+ANA MARÍA BOCANEGRA,
 JAIRO VILLANUEVA
 
 - Licencia 📄
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
 
-- Expresiones de Gratitud 🎁
-Comenta a otros sobre este proyecto 📢
+
