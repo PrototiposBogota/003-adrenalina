@@ -7,7 +7,10 @@ page-drogas{
     width: 170px;
     height: 38px;
   }
+
+  
 }
+
 
 
 .button {
@@ -40,5 +43,10 @@ page-drogas{
       color: #ed9509;
       text-shadow: 0px 0px 4px #ed9509;
     }
-  
+    background-image: url('../../assets/Varios/fondo02.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ion-content {
+      background-color: transparent !important;
+    }
   }

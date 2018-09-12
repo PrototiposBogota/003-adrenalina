@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
 
-    <button ion-button menuToggle>
+    <button ion-button end menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
 
@@ -11,21 +11,21 @@
         
           <!-- <button ion-button icon-only color="light">
                 <ion-icon name="home"></ion-icon>
-           </button> -->
-           <ion-buttons end>
-              <button ion-button icon-only color="light">
+           </button> Se elimino el botón Home-->
+           <!-- <ion-buttons end>
+              <button ion-button icon-only color="white">
                 <ion-icon name="contact"></ion-icon>
               </button>
-            </ion-buttons>
+            </ion-buttons> -->
 
   </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
-  <h3>Adrenalina Menu Principal</h3>
+  <h3>Menu Principal</h3>
   <!-- <button ion-button secondary menuToggle>Toggle Menu</button> -->
-
+  
   <button ion-button color="light" full icon-start large (click)="opcion_ruta()">
     <ion-icon name="star"></ion-icon> 
     Ruta de Acción
@@ -38,17 +38,20 @@
       <ion-icon name="hand"></ion-icon>
       Denuncia                                      
   </button>
-  <button ion-button color="light" full icon-start large (click)="opcion_agenda()">
+
+  <!-- <button ion-button color="light" full icon-start large (click)="opcion_agenda()">
     <ion-icon name="calendar"></ion-icon>
     Calendario Actividades
-  </button>
+  </button> Se elimino el botón Calendario de Actividades se tendra en cuenta a futuro-->
   <button ion-button color="light" full icon-start large>
       <ion-icon name="happy"></ion-icon>
     Chatea con Nosotros
   </button>
-  <button ion-button color="light" full icon-start large>
+  <!-- <button ion-button color="light" full icon-start large>
       <ion-icon name="medkit"></ion-icon>
   Programas de apoyo
-  </button>
+  </button> El contenido de progamas de apoyo se colocara en ruta de acción-->
+
+  <img class="logo3" src="assets/logo/adrenalinaNN1.png">
   
 </ion-content>
