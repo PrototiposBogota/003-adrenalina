@@ -62,6 +62,23 @@ podrá hacer seguimiento de esta información, y de esta manera establecer un ac
 URL de Heroku Git
 https://git.heroku.com/adrenalinabackend.git
 
+- Instalar la CLI de Heroku
+-Descargue e instale Heroku CLI .
+
+-Si aún no lo hizo, inicie sesión en su cuenta Heroku y siga las instrucciones para crear una nueva clave pública SSH.
+
+-$ heroku login
+-Clonar el repositorio
+-Use Git para clonar el código fuente de adrenalinabackend en su máquina local.
+
+-$ heroku git: clone -a adrenalinabackend $ cd adrenalinabackend
+-Implementa tus cambios
+-Realice algunos cambios en el código que acaba de clonar y despliéguelos en Heroku usando Git.
+
+$ git add.
+$ git commit -am "hacerlo mejor"
+$ git push heroku master
+
 - Construido con 🛠️:
 Visual Studio code,
 Noje.JS,
