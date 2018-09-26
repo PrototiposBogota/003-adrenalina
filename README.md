@@ -9,8 +9,9 @@ BOGOTÁ
 AGOSTO 2018
 
 - Autores ✒️
-FELIPE MAHECHA,
-WILLIAM GRANADA,
+
+William Granada - william_gra@hotmail.com
+Andrés Mahecha - remailerpunk@gmail.com
 
 - URL de Heroku Git
 https://git.heroku.com/adrenalinabackend.git
