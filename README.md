@@ -1,4 +1,4 @@
-<img class="logo2" src="assets/logo/adrenalinaN1.png" />
+
 # 003-adrenalina
 
 ADRENALINA
@@ -11,8 +11,6 @@ AGOSTO 2018
 - Autores ✒️
 FELIPE MAHECHA,
 WILLIAM GRANADA,
-
-
 
 - URL de Heroku Git
 https://git.heroku.com/adrenalinabackend.git
@@ -87,12 +85,10 @@ Postgresql
 Github
 
 
-- Contribuyendo 🖇️
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
 - Versionado 📌
 Para todas las versiones disponibles, mira los tags en este repositorio.
 0.1 Alfa
+
 
 - Licencia 📄
 Este proyecto está bajo la Licencia (Adrenalina)
