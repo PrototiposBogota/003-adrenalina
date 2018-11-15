@@ -8,10 +8,9 @@ DESARROLLO FULL STACK Y TECNOLOGÍAS HÍBRIDAS
 BOGOTÁ 
 AGOSTO 2018
 
-- Autores ✒️
+- Autor ✒️
 
 William Granada - william_gra@hotmail.com
-Andrés Mahecha - remailerpunk@gmail.com
 
 - URL de Heroku Git
 https://adrenalinaap.herokuapp.com/
@@ -58,7 +57,7 @@ podrá hacer seguimiento de esta información, y de esta manera establecer un ac
 
 - Deployment 📦
 URL de Heroku Git
-https://git.heroku.com/adrenalinabackend.git
+https://adrenalinaap.herokuapp.com/
 
 - Instalar la CLI de Heroku
 -Descargue e instale Heroku CLI .
