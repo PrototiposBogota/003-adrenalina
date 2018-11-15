@@ -8,12 +8,12 @@ DESARROLLO FULL STACK Y TECNOLOGÍAS HÍBRIDAS
 BOGOTÁ 
 AGOSTO 2018
 
-- Autores ✒️
-FELIPE MAHECHA,
-WILLIAM GRANADA,
+- Autor ✒️
+
+William Granada - william_gra@hotmail.com
 
 - URL de Heroku Git
-https://git.heroku.com/adrenalinabackend.git
+https://adrenalinaap.herokuapp.com/
 
 Problemática 
 Colegios libres de droga 
@@ -57,7 +57,7 @@ podrá hacer seguimiento de esta información, y de esta manera establecer un ac
 
 - Deployment 📦
 URL de Heroku Git
-https://git.heroku.com/adrenalinabackend.git
+https://adrenalinaap.herokuapp.com/
 
 - Instalar la CLI de Heroku
 -Descargue e instale Heroku CLI .
