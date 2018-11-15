@@ -14,7 +14,7 @@ William Granada - william_gra@hotmail.com
 Andrés Mahecha - remailerpunk@gmail.com
 
 - URL de Heroku Git
-https://git.heroku.com/adrenalinabackend.git
+https://adrenalinaap.herokuapp.com/
 
 Problemática 
 Colegios libres de droga 
