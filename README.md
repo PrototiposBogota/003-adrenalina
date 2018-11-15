@@ -1,16 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
 # 003-adrenalina
 
 ADRENALINA
@@ -19,6 +7,13 @@ FEDESOFT
 DESARROLLO FULL STACK Y TECNOLOGÍAS HÍBRIDAS 
 BOGOTÁ 
 AGOSTO 2018
+
+- Autor ✒️
+
+William Granada - william_gra@hotmail.com
+
+- URL de Heroku Git
+https://adrenalinaap.herokuapp.com/
 
 Problemática 
 Colegios libres de droga 
@@ -59,22 +54,27 @@ información las instituciones educativas podrán identificar niveles de riesgos
 campañas preventivas o de acompañamiento a estudiantes de manera más efectiva, por otra parte, la Policía como ente de vigilancia y control 
 podrá hacer seguimiento de esta información, y de esta manera establecer un acompañamiento eficiente en las zonas vectorizadas de la localidad. 
 
-- Comenzando 🚀
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y 
-pruebas.
-Mira Deployment para conocer como desplegar el proyecto.
-
-- Pre-requisitos 📋
-Que cosas necesitas para instalar el software y como instalarlas
-Da un ejemplo
-
-- Instalación 🔧
-Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutándose, cómo será ese paso,da un ejemplo y repite hasta finalizar.
-Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
-
 
 - Deployment 📦
-Agrega notas adicionales sobre cómo hacer deploy
+URL de Heroku Git
+https://adrenalinaap.herokuapp.com/
+
+- Instalar la CLI de Heroku
+-Descargue e instale Heroku CLI .
+
+-Si aún no lo hizo, inicie sesión en su cuenta Heroku y siga las instrucciones para crear una nueva clave pública SSH.
+
+-$ heroku login
+-Clonar el repositorio
+-Use Git para clonar el código fuente de adrenalinabackend en su máquina local.
+
+-$ heroku git: clone -a adrenalinabackend $ cd adrenalinabackend
+-Implementa tus cambios
+-Realice algunos cambios en el código que acaba de clonar y despliéguelos en Heroku usando Git.
+
+$ git add.
+$ git commit -am "hacerlo mejor"
+$ git push heroku master
 
 - Construido con 🛠️:
 Visual Studio code,
@@ -85,19 +85,12 @@ Postgresql
 Github
 
 
-- Contribuyendo 🖇️
-Por favor lee el CONTRIBUTING.md para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
 - Versionado 📌
 Para todas las versiones disponibles, mira los tags en este repositorio.
 0.1 Alfa
-- Autores ✒️
-FELIPE MAHECHA,
-WILLIAM GRANADA,
-ANA MARÍA BOCANEGRA,
-JAIRO VILLANUEVA
+
 
 - Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo LICENSE.md para detalles
+Este proyecto está bajo la Licencia (Adrenalina)
 
 
